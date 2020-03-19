@@ -1,0 +1,248 @@
+html {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 5.4rem;
+  color: #010101;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.4rem;
+  color: #010101;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4rem;
+  color: #010101;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  color: #707070;
+}
+
+.logo {
+  width: 4.75rem;
+  margin: 1rem;
+}
+
+.landing-section {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.tags {
+  margin-left: 1rem;
+}
+
+.first-header {
+  margin-left: 1.7rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.photo-section {
+  text-align: center;
+}
+
+#personal {
+  width: 30rem;
+}
+
+.desc-section {
+  margin-top: 12rem;
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+
+.desc-header {
+  margin-bottom: 1rem;
+}
+
+.desc-text {
+  width: 80%;
+  margin-top: 0;
+}
+
+.skills-section {
+  margin-top: 12rem;
+}
+
+.skills-header {
+  margin-left: 1.7rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+}
+
+li {
+  margin: 3rem;
+  padding-left: 1rem;
+  color: #707070;
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.bullet-point {
+  list-style-image: url(Rectangle.svg);
+}
+
+.work-section {
+  margin-top: 12rem;
+}
+
+.work-header {
+  margin-left: 1.7rem;
+  margin-bottom: 4rem;
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  gap: 2%;
+}
+
+.work-card {
+  margin-left: 1.7rem;
+  padding: 2rem;
+}
+
+.work-container img {
+  width: 92%;
+}
+
+.project-name {
+  margin-bottom: 0;
+}
+
+.stack {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.project-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7rem;
+  color: #707070;
+  margin-top: 0rem;
+}
+
+.contact-section {
+  height: 70vh;
+  margin-top: 12rem;
+  display: grid;
+  grid-template-columns: 49% 49%;
+}
+
+.contact-info {
+  margin-left: 1.7rem;
+}
+
+.contact-info a {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #707070;
+}
+
+.icons-section {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.contact-icon {
+  width: 2rem;
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 1640px) {
+  .name-section {
+    margin-top: 10%;
+  }
+
+  .contact-icon {
+    width: 4rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .landing-section {
+    grid-template-columns: 100%;
+    margin-top: 0;
+  }
+
+  lottie-player {
+    margin-top: 2rem;
+  }
+
+  .desc-section {
+    grid-template-columns: 100%;
+    text-align: center;
+    margin-top: 7rem;
+  }
+
+  #personal {
+    width: 100%;
+  }
+
+  .desc-text {
+    width: 100%;
+  }
+
+  .container {
+    grid-template-columns: 100%;
+  }
+
+  ul {
+    margin: 0rem;
+  }
+
+  li {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .work-section {
+    margin-top: 7rem;
+  }
+
+  .work-container {
+    grid-template-columns: 100%;
+  }
+
+  .work-header {
+    margin-bottom: 2rem;
+  }
+
+  .work-card {
+    margin-left: 0rem;
+  }
+
+  .contact-section {
+    grid-template-columns: 100%;
+  }
+}
