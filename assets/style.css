@@ -74,25 +74,19 @@ p {
   margin-top: 12rem;
 }
 
+.skills-grid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  text-align: center;
+  row-gap: 3rem;
+}
+
+.skills-grid img {
+  width: 50%;
+}
+
 .skills-header {
   margin-left: 1.7rem;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(5, 20%);
-}
-
-li {
-  margin: 3rem;
-  padding-left: 1rem;
-  color: #707070;
-  font-size: 1.4rem;
-  font-family: "Roboto", sans-serif;
-}
-
-.bullet-point {
-  list-style-image: url(Rectangle.svg);
 }
 
 .work-section {
@@ -117,6 +111,7 @@ li {
 
 .work-container img {
   width: 92%;
+  border-radius: 1rem;
 }
 
 .project-name {
@@ -138,12 +133,13 @@ li {
 
 .contact-section {
   height: 70vh;
-  margin-top: 12rem;
+  margin-top: 15rem;
   display: grid;
   grid-template-columns: 49% 49%;
 }
 
 .contact-info {
+  margin: auto;
   margin-left: 1.7rem;
 }
 
@@ -155,7 +151,7 @@ li {
 
 .icons-section {
   text-align: center;
-  margin-top: 8rem;
+  margin: auto;
 }
 
 .contact-icon {
@@ -245,4 +241,48 @@ li {
   .contact-section {
     grid-template-columns: 100%;
   }
+}
+
+/*Ruwwad al Iraq project page*/
+.container-projects {
+  width: 100%;
+}
+
+.hero-image-projects {
+  width: 100%;
+}
+
+.project-desc-block {
+  margin: 2rem;
+  margin-bottom: 3rem;
+}
+
+.tech-grid {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 10% 10% 10%;
+  text-align: center;
+  gap: 1rem;
+}
+
+.tech-grid img {
+  width: 100%;
+}
+
+/*Kukubean project page*/
+
+.images-grid-kuku {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 100%;
+  text-align: center;
+}
+
+.images-grid-kuku img {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: 1080px;
 }
